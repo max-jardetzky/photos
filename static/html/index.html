@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Photos</title>
+        <link rel="stylesheet" type="text/css" href="static/css/index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Photos</h1>
+            <div class="innerContainer">
+                <h2>Sign In</h2>
+                <input type="text" class="usr" id="username" data-lpignore="true" placeholder="Username" />
+                <br>
+                <div class="submitContainer">
+                    <input type="password" id="password" data-lpignore="true" placeholder="Password" />
+                    <button id="submitSignIn">Go!</button>
+                </div>
+                <h3 class="errorMsg" id="signInText"></h3>
+            </div>
+            <hr>
+            <div class="innerContainer">
+                <h2>Sign Up</h2>
+                <input type="text" class="usr" id="newUsername" data-lpignore="true" placeholder="Username" />
+                <br>
+                <div class="submitContainer">
+                    <input type="password" id="newPassword" data-lpignore="true" placeholder="Password" />
+                    <button id="submitSignUp">Go!</button>
+                </div>
+                <h3 class="errorMsg" id="signUpText"></h3>
+            </div>
+        </div>
+        <script src="static/js/jquery-3.4.1.min.js"></script>
+        <script src="static/js/index.js"></script>
+    </body>
+</html>

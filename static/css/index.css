@@ -1,0 +1,75 @@
+body {
+    font-family: "Open Sans";
+    background-color: #16697A;
+    color: #152f36;
+}
+.container {
+    background-color: #489FB5;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    border-radius: 20px;
+}
+.innerContainer {
+    background-color: #82C0CC;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.submitContainer {
+    display: flex;
+    width: 250px;
+}
+.container h1 {
+    margin: 0px;
+}
+.container hr {
+    border: 0px;
+    height: 0px;
+    margin: 0px;
+}
+.innerContainer h2 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.innerContainer input {
+    background-color: #489FB5;
+    color: #152f36;
+    flex-grow: 1;
+    font-size: 13px;    
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px;
+    font-weight: 600;
+}
+.innerContainer input::placeholder {
+    color: #152f36;
+    opacity: 1;
+}
+.submitContainer button {
+    background-color: #489FB5;
+    color: #152f36;
+    border-radius: 5px;
+    border: 0px;
+    margin: 0px;
+    height: 25.2px;
+    font-weight: 600;
+}
+.submitContainer input {
+    margin-right: 10px;
+}
+.usr {
+    width: 240px;
+    margin-bottom: 10px;
+}
+.errorMsg {
+    font-size: 13px;
+    margin: 0px;
+    margin-top: 5px;
+    display: none;
+}
+input:focus, select:focus, textarea:focus, button:focus {
+    outline: none;
+}
